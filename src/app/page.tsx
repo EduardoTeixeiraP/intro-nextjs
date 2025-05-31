@@ -1,19 +1,11 @@
-import Nav from "./components/Nav";
-import Welcome from "./components/Welcome";
-import ServerExample from "./server-example/page";
+import Page from "@/server-client/page";
 
 export default function Home() {
   return (
-    <>
-    <div>
-      <header>
-      <Nav/>
-      </header>
+    <div className="grid justify-center ">
+      <div className="mt-10 ">
+      <Page/>
+      </div>
     </div>
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <Welcome/>
-      <ServerExample/>
-    </div>
-    </>
-  );
+  )
 }
