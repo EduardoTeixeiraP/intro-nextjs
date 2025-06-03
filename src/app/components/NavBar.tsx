@@ -11,7 +11,7 @@ interface NavBarProps {
 export default function NavBar({links}:NavBarProps) {
 
     return (
-        <nav className="bg-amber-50 shadow-sm">
+        <nav className="bg-amber-100">
             <div className="px-4">
                 <div className="flex justify-between h-16 items-center">
                 {/*Logo*/}
