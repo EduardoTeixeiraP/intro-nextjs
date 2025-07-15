@@ -1,7 +1,6 @@
-// import Page from "@/server-client/page";
+
 import { Cards } from "./components/Card";
 import NavBar from "./components/NavBar";
-import PlaceForm from "./components/PlaceForm";
 
 export default function Home() {
   return (
@@ -40,14 +39,6 @@ export default function Home() {
             description="Tipagem estática para um código mais seguro."
             icon="🔒" />
         </div>
-
-      </section>
-
-      <section>
-
-      <div className="flex justify-center">
-              <PlaceForm/>
-      </div>
 
       </section>
       </>
