@@ -9,7 +9,7 @@ export function Cards({ title, description, icon }: cardProps) {
     return (
 
         <div className="
-        bg-gray-300 
+        bg-blue-200 
         p-6 rounded-xl 
         hover:shadow-md transition duration-300"
         >

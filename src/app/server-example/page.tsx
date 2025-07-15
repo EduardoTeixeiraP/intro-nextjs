@@ -1,12 +1,16 @@
+import ClientCounter from "@/app/components/ClientCounter"
+
 
 export default function ServerExample() {
-    const data = 'Dados do banco de dados'
-    
-    return(
+    // const data = await fetchDataFromDb()
+    const data = 'dados do banco de dados'
+
+    return (
         <div>
-            <h1>Dados do servidor</h1>
+            <h1>Dados do Servidor</h1>
             <p>{data}</p>
-            {/* <ClientCounter/> */}
+
+            <ClientCounter/>
         </div>
     )
 }

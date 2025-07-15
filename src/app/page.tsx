@@ -1,6 +1,7 @@
 // import Page from "@/server-client/page";
 import { Cards } from "./components/Card";
 import NavBar from "./components/NavBar";
+import PlaceForm from "./components/PlaceForm";
 
 export default function Home() {
   return (
@@ -19,7 +20,7 @@ export default function Home() {
     </div>
     <section className="bg-white py-12 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-        <h2 className="text-3xl font-bold text-center  mb-12">
+        <h2 className="text-3xl font-bold text-center mb-12">
           Recursos Principais
         </h2>
 
@@ -39,6 +40,14 @@ export default function Home() {
             description="Tipagem estática para um código mais seguro."
             icon="🔒" />
         </div>
+
+      </section>
+
+      <section>
+
+      <div className="flex justify-center">
+              <PlaceForm/>
+      </div>
 
       </section>
       </>
