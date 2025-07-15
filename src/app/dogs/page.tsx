@@ -1,7 +1,8 @@
-
 'use client';
-import { Image } from "lucide-react";
+
 import { useEffect, useState } from "react";
+import Image from "next/image";
+import { Button } from "@/components/ui/button";
 
 type DogImage = {
     message: string;
@@ -30,12 +31,12 @@ export default function DogsPage() {
                 className="w-80 h-80 object-cover rounded-xl shadow-lg"
             />
 
-            <button
+            <Button
                 onClick={fetchDog}
-                className="mt-6 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition"
+                className=" hover:bg-blue-600 transition"
             >
                 Buscar outro cachorro
-            </button>
+            </Button>
         </div>
     );
 }
