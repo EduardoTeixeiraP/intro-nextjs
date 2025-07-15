@@ -11,9 +11,9 @@ interface NavBarProps {
 export default function NavBar({links}:NavBarProps) {
 
     return (
-        <nav className="bg-amber-100">
+        <nav className="bg-gradient-to-br from-blue-400 to-blue-700 h-25">
             <div className="px-4">
-                <div className="flex justify-between h-16 items-center">
+                <div className="flex justify-between h-25 items-center">
                 {/*Logo*/}
 
                     <div className="flex items-center">
@@ -23,10 +23,10 @@ export default function NavBar({links}:NavBarProps) {
                             width={40}
                             height={40}
                         />
-                        <span className="ml-2">NextApp</span>
+                        <span className="font-bold text-3xl ml-2 text-white">NextApp</span>
                     </div>
                 {/*Links*/}
-                    <div className="flex space-x-6">
+                    <div className="flex text-2xl    text-white space-x-6 mr-5">
                         {
                             links.map((link, indice)=>(
                                 <a key={indice} href={link.href} className="text-lg font-medium hover:text-indigo-600">
