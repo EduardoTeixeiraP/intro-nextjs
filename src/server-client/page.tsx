@@ -1,6 +1,5 @@
 'use client'
 
-import ThemeToggle from '@/app/components/ThemeToggle'
 import Products from '@/app/products/page'
 import { useEffect, useState } from 'react'
 
@@ -22,9 +21,6 @@ export default function LiveClock() {
         <div className="grid justify-center text-x2 mt-10">
             <h1 className="flex justify-center text-2xl font-bold mb-4">Lista de produtos</h1>
             <Products/>
-        </div>
-        <div className='flex justify-center mt-50'>
-            <ThemeToggle/>
         </div>
     </div>
   )

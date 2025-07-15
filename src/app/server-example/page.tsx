@@ -2,7 +2,6 @@ import ClientCounter from "@/app/components/ClientCounter"
 
 
 export default function ServerExample() {
-    // const data = await fetchDataFromDb()
     const data = 'dados do banco de dados'
 
     return (
