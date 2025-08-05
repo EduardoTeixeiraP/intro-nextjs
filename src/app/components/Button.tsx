@@ -22,7 +22,7 @@ function Button({ label }: ButtonProps) {
 }
 
 function Title() {
-  return <h1 className="text-black text-4xl font-bold mb-8">Triologia de Tomb Raider</h1>;
+  return <h1 className="text-black text-4xl font-bold mb-8">Galeria de jogos e filmes</h1>;
 }
 
 function Cards({ title, description, imageUrl, butLabel, butUrl }: PropCards) {
@@ -32,7 +32,7 @@ function Cards({ title, description, imageUrl, butLabel, butUrl }: PropCards) {
         <img
           src={imageUrl}
           alt="imageProps"
-          className="w-full h-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-110"
+          className="w-full h-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-105"
         />
       </div>
       <div className="flex flex-col gap-2 p-4 flex-1">
