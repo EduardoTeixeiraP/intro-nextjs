@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    domains: ['i.pinimg.com', 'i.snapcdn.app', 'img-s-msn-com.akamaized.net'],
+  },
 };
 
 export default nextConfig;
